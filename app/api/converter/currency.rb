@@ -9,7 +9,7 @@ module Converter
         status: 'failed',
         message: message,
         error_code: 123
-      }
+      }.to_json
     }
     helpers do
       def get_exchange_rate(currency)
